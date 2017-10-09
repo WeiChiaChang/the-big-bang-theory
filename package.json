@@ -1,0 +1,37 @@
+{
+  "name": "the-big-bang-theory",
+  "bin": "the-big-bang-theory.js",
+  "version": "1.1.2",
+  "description": "Fetch random name of character in The Big Bang Theory",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeiChiaChang/the-big-bang-theory.git"
+  },
+  "keywords": [
+    "the-big-bang-theory",
+    "cli",
+    "bin"
+  ],
+  "files": [
+    "index.js",
+    "the-big-bang-theory.js",
+    "the-big-bang-theory.json"
+  ],
+  "author": "weichiachang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WeiChiaChang/the-big-bang-theory/issues"
+  },
+  "homepage": "https://github.com/WeiChiaChang/the-big-bang-theory#readme",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.1"
+  }
+}
